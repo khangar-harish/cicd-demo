@@ -14,7 +14,7 @@ class CicdDemoApplicationTests {
 	public static Logger logger = (Logger) LoggerFactory.getLogger(CicdDemoApplication.class);
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		logger.info("Test Case1 Executed...");
 		logger.info("Test Case2 Executed...");
 		assertEquals(true, true);
