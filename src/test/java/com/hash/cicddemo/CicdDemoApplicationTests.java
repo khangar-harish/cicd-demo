@@ -17,6 +17,7 @@ class CicdDemoApplicationTests {
 	void contextLoads() {
 		logger.info("Test Case1 Executed...");
 		logger.info("Test Case2 Executed...");
+		logger.info("Test Case3 Executed...");
 		assertEquals(true, true);
 	}
 
